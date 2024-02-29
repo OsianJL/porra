@@ -350,11 +350,11 @@ export default function Listas() {
           </form>
         </div>
       </nav>
-      <div className="peniporra">Peni</div>
+      {/* <div className="peniporra">Peni</div> */}
       <button id="boton-ejecutar" className="btn" onClick={createClasif}>
         Actualiza la clasificación aqui!
       </button>
-      <div className="peniporra">Porra</div>
+      {/* <div className="peniporra">Porra</div> */}
       <div className="row">
         <div className="divRaul tabla">
           <h3>Yeret</h3>
