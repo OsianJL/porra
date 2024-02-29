@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/porra/static/css/main.0df2256b.css",
-    "main.js": "/porra/static/js/main.71b3b5ba.js",
+    "main.js": "/porra/static/js/main.77aea129.js",
     "static/js/453.6ab8a5a7.chunk.js": "/porra/static/js/453.6ab8a5a7.chunk.js",
     "index.html": "/porra/index.html",
     "main.0df2256b.css.map": "/porra/static/css/main.0df2256b.css.map",
-    "main.71b3b5ba.js.map": "/porra/static/js/main.71b3b5ba.js.map",
+    "main.77aea129.js.map": "/porra/static/js/main.77aea129.js.map",
     "453.6ab8a5a7.chunk.js.map": "/porra/static/js/453.6ab8a5a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0df2256b.css",
-    "static/js/main.71b3b5ba.js"
+    "static/js/main.77aea129.js"
   ]
 }
