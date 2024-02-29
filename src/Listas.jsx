@@ -128,8 +128,7 @@ export default function Listas() {
     "Rayo",
   ];
 
-  var ClasificaReal = ordenEquipos; 
-  
+  var ClasificaReal = ordenEquipos;
 
   function puntuacion(listas) {
     let sumaDePuntos = 0;
@@ -358,7 +357,7 @@ export default function Listas() {
       <div className="peniporra">Porra</div>
       <div className="row">
         <div className="divRaul tabla">
-          <h3>Raul</h3>
+          <h3>Yeret</h3>
           <ul className="listaRaul">
             <li>
               <span className="clasif__real">Oficial</span>
@@ -367,56 +366,56 @@ export default function Listas() {
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[0]}</span>
-              <span>{listaRaul[0]} </span>
-              <span className="puntos">{arrayRaulPuntos[0]}</span>
+              <span>{listaYeret[0]} </span>
+              <span className="puntos">{arrayYeretPuntos[0]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[1]}</span>
-              <span>{listaRaul[1]} </span>
-              <span className="puntos">{arrayRaulPuntos[1]}</span>
+              <span>{listaYeret[1]} </span>
+              <span className="puntos">{arrayYeretPuntos[1]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[2]}</span>
-              <span>{listaRaul[2]} </span>
-              <span className="puntos">{arrayRaulPuntos[2]}</span>
+              <span>{listaYeret[2]} </span>
+              <span className="puntos">{arrayYeretPuntos[2]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[3]}</span>
-              <span>{listaRaul[3]} </span>
-              <span className="puntos">{arrayRaulPuntos[3]}</span>
+              <span>{listaYeret[3]} </span>
+              <span className="puntos">{arrayYeretPuntos[3]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[4]}</span>
-              <span>{listaRaul[4]} </span>
-              <span className="puntos">{arrayRaulPuntos[4]}</span>
+              <span>{listaYeret[4]} </span>
+              <span className="puntos">{arrayYeretPuntos[4]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[5]}</span>
-              <span>{listaRaul[5]} </span>
-              <span className="puntos">{arrayRaulPuntos[5]}</span>
+              <span>{listaYeret[5]} </span>
+              <span className="puntos">{arrayYeretPuntos[5]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[6]}</span>
-              <span>{listaRaul[6]} </span>
-              <span className="puntos">{arrayRaulPuntos[6]}</span>
+              <span>{listaYeret[6]} </span>
+              <span className="puntos">{arrayYeretPuntos[6]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[7]}</span>
-              <span>{listaRaul[7]} </span>
-              <span className="puntos">{arrayRaulPuntos[7]}</span>
+              <span>{listaYeret[7]} </span>
+              <span className="puntos">{arrayYeretPuntos[7]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[8]}</span>
-              <span>{listaRaul[8]} </span>
-              <span className="puntos">{arrayRaulPuntos[8]}</span>
+              <span>{listaYeret[8]} </span>
+              <span className="puntos">{arrayYeretPuntos[8]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[9]}</span>
-              <span>{listaRaul[9]} </span>
-              <span className="puntos">{arrayRaulPuntos[9]}</span>
+              <span>{listaYeret[9]} </span>
+              <span className="puntos">{arrayYeretPuntos[9]}</span>
             </li>
           </ul>
-          <h2>{raulPuntosTotal} puntos!</h2>
+          <h2>{YeretPuntosTotal} puntos!</h2>
         </div>
         <div className="divRaul tabla">
           <h3>Nau</h3>
@@ -663,7 +662,7 @@ export default function Listas() {
           <h2>{osianPuntosTotal} puntos!</h2>
         </div>
         <div className="divRaul tabla">
-          <h3>Yeret</h3>
+          <h3>Raul</h3>
           <ul className="listaRaul">
             <li>
               <span className="clasif__real">Oficial</span>
@@ -672,56 +671,56 @@ export default function Listas() {
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[0]}</span>
-              <span>{listaYeret[0]} </span>
-              <span className="puntos">{arrayYeretPuntos[0]}</span>
+              <span>{listaRaul[0]} </span>
+              <span className="puntos">{arrayRaulPuntos[0]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[1]}</span>
-              <span>{listaYeret[1]} </span>
-              <span className="puntos">{arrayYeretPuntos[1]}</span>
+              <span>{listaRaul[1]} </span>
+              <span className="puntos">{arrayRaulPuntos[1]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[2]}</span>
-              <span>{listaYeret[2]} </span>
-              <span className="puntos">{arrayYeretPuntos[2]}</span>
+              <span>{listaRaul[2]} </span>
+              <span className="puntos">{arrayRaulPuntos[2]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[3]}</span>
-              <span>{listaYeret[3]} </span>
-              <span className="puntos">{arrayYeretPuntos[3]}</span>
+              <span>{listaRaul[3]} </span>
+              <span className="puntos">{arrayRaulPuntos[3]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[4]}</span>
-              <span>{listaYeret[4]} </span>
-              <span className="puntos">{arrayYeretPuntos[4]}</span>
+              <span>{listaRaul[4]} </span>
+              <span className="puntos">{arrayRaulPuntos[4]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[5]}</span>
-              <span>{listaYeret[5]} </span>
-              <span className="puntos">{arrayYeretPuntos[5]}</span>
+              <span>{listaRaul[5]} </span>
+              <span className="puntos">{arrayRaulPuntos[5]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[6]}</span>
-              <span>{listaYeret[6]} </span>
-              <span className="puntos">{arrayYeretPuntos[6]}</span>
+              <span>{listaRaul[6]} </span>
+              <span className="puntos">{arrayRaulPuntos[6]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[7]}</span>
-              <span>{listaYeret[7]} </span>
-              <span className="puntos">{arrayYeretPuntos[7]}</span>
+              <span>{listaRaul[7]} </span>
+              <span className="puntos">{arrayRaulPuntos[7]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[8]}</span>
-              <span>{listaYeret[8]} </span>
-              <span className="puntos">{arrayYeretPuntos[8]}</span>
+              <span>{listaRaul[8]} </span>
+              <span className="puntos">{arrayRaulPuntos[8]}</span>
             </li>
             <li>
               <span className="clasif-real">{ClasificaReal[9]}</span>
-              <span>{listaYeret[9]} </span>
-              <span className="puntos">{arrayYeretPuntos[9]}</span>
+              <span>{listaRaul[9]} </span>
+              <span className="puntos">{arrayRaulPuntos[9]}</span>
             </li>
           </ul>
-          <h2>{YeretPuntosTotal} puntos!</h2>
+          <h2>{raulPuntosTotal} puntos!</h2>
         </div>
       </div>
     </>
