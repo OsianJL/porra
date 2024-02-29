@@ -1,13 +1,142 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  overflow-x: hidden;
 }
+
+
+h3 {
+  text-align: center;
+  background-color: antiquewhite;
+  box-shadow: 10px 10px 10px;
+  border-radius: 5px;
+}
+.App{
+width: 100%;
+display: flex;
+justify-content: space-around;
+background-color: rgb(38, 147, 21);
+background-image: url(https://media.istockphoto.com/id/177317875/es/foto/campo-de-f%C3%BAtbol.jpg?s=612x612&w=0&k=20&c=s07Cx0HadZUrnjIdXIIXR0BtaE86V326TEqqXxUPDos=);
+
+}
+
+li {
+  list-style:decimal; 
+  text-align: start;
+  font-size: 10px;
+  padding: 3px; 
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  margin-top: 30px; 
+  padding-left: 5px;
+  height: 300px;
+  margin-bottom: 0px;
+}
+
+.tabla{
+  width: 240px;
+  height: 440px;
+  margin: 0px 5px 20px;  
+  padding: 10px; 
+  background: rgb(194, 175, 175); 
+  font-weight: bold;
+}
+
+.clasif-real{
+  font-size: 10px;
+  color: rgb(126, 27, 27);
+  width: 40px;
+}
+
+li span {
+  display: flex;
+  align-items: center; 
+  width: 40px;
+  border-top: 1px solid black;
+  
+  
+}
+
+.clasif__puntos, .clasif__real, .clasif__apuesta {
+ display: flex;
+ justify-content: center;
+ border-top: none; 
+ font-size: 14px; 
+}
+
+.puntos{
+  display: flex;
+  justify-content: center;
+}
+
+h2     {
+  padding-bottom: 10px;
+}
+
+.stand-span {
+  display: block; 
+  color: rgb(192, 155, 155);
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 1px;
+ 
+  background-color: black;
+  margin-inline: 5px;
+  border-radius: 20px;
+  
+  
+}
+
+.team-position {
+  background: rgb(179, 33, 33); 
+  text-align: center; 
+  font-weight: bolder;
+  font-size: 15px; 
+  width: 120px;
+  height: 25px;
+  border-radius: 30px;
+  margin: 2px; 
+
+
+}
+
+div .row {
+  display: flex;
+  justify-content: center;
+  background: rgb(41, 145, 36);
+  background-image: url(https://media.istockphoto.com/id/153722609/es/foto/pelota-de-f%C3%BAtbol-en-la-red-de-la-porter%C3%ADa.jpg?s=612x612&w=0&k=20&c=42llH2bMP_-0QhUDUbe3E82u1DIohW5H9a59gb4jNJQ=);
+}
+
+#boton-ejecutar {
+  background-color: rgb(42, 30, 202);
+  width: 400px;
+  color: white; 
+  margin-bottom: 15px; 
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.peniporra {
+  color: rgb(180, 20, 164);
+  margin-inline: 150px;
+  font-size: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  -webkit-text-stroke: 1px rgb(1, 4, 21);
+  background:rgb(209, 209, 219);
+  width: 7%;
+  height: 7%;
+  border-radius: 50%;
+  padding-top: 15px;
+  display: inline-block;
+  margin-bottom: 10px;
+ 
+  
+}
+
